@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc10ea74-3cfa-4c96-9fc3-c2c0d1a93590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/paquete/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paquete/arreglos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paquete/caseswitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paquete/matrices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leccion01/holamundo/HolaMundo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leccion2/ManejoVariables/ManejoVariablesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/holamundo/paquete/fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/holamundo/paquete/fibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/holamundo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentosjava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/holamundo/paquete/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/holamundo/paquete/actionbreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/holamundo/paquete/arreglos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/holamundo/paquete/caseswitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/holamundo/paquete/ciclofor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/holamundo/paquete/ciclowhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/holamundo/paquete/fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/holamundo/paquete/ifelsejava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/holamundo/paquete/matrices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/holamundo/paquete/variables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paquete/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paquete/Carro.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,34 +30,35 @@
     <session id="-1269262329">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="12" />
+          <entry key="java" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3043" />
+          <entry key="java" value="4295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3043" />
+          <entry key="JAVA" value="4295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -57,37 +68,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/paquete/ciclofor.java">
+        <entry file="file://$PROJECT_DIR$/src/Leccion01/holamundo/HolaMundo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/paquete/arreglos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/paquete/matrices.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/paquete/Carro.java">
+        <entry file="file://$PROJECT_DIR$/src/Leccion2/ManejoVariables/ManejoVariablesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="202">
+              <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -117,6 +110,9 @@
         <option value="$PROJECT_DIR$/src/paquete/caseswitch.java" />
         <option value="$PROJECT_DIR$/src/paquete/arreglos.java" />
         <option value="$PROJECT_DIR$/src/paquete/matrices.java" />
+        <option value="$PROJECT_DIR$/src/paquete/Carro.java" />
+        <option value="$PROJECT_DIR$/src/Leccion01/holamundo/HolaMundo.java" />
+        <option value="$PROJECT_DIR$/src/Leccion2/ManejoVariables/ManejoVariablesTest.java" />
       </list>
     </option>
   </component>
@@ -126,10 +122,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-2" />
+    <option name="y" value="33" />
+    <option name="width" value="1122" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -138,7 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -156,12 +151,19 @@
               <item name="holamundo" type="b2602c69:ProjectViewProjectNode" />
               <item name="holamundo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="paquete" type="462c0819:PsiDirectoryNode" />
+              <item name="holamundo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="holamundo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="holamundo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ManejoVariables" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,6 +175,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mind\IdeaProjects\holamundo\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,13 +193,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.matrices">
-    <configuration name="actionbreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paquete.actionbreak" />
-      <module name="holamundo" />
+  <component name="RunManager" selected="Application.ManejoVariablesTest">
+    <configuration name="HolaMundo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leccion01.holamundo.HolaMundo" />
+      <module name="fundamentosjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paquete.*" />
+          <option name="PATTERN" value="Leccion01.holamundo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManejoVariablesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leccion2.ManejoVariables.ManejoVariablesTest" />
+      <module name="fundamentosjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leccion2.ManejoVariables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,7 +222,7 @@
     </configuration>
     <configuration name="arreglos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="paquete.arreglos" />
-      <module name="holamundo" />
+      <module name="fundamentosjava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="paquete.*" />
@@ -215,20 +235,7 @@
     </configuration>
     <configuration name="caseswitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="paquete.caseswitch" />
-      <module name="holamundo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="paquete.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paquete.fibonacci" />
-      <module name="holamundo" />
+      <module name="fundamentosjava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="paquete.*" />
@@ -241,7 +248,7 @@
     </configuration>
     <configuration name="matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="paquete.matrices" />
-      <module name="holamundo" />
+      <module name="fundamentosjava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="paquete.*" />
@@ -253,19 +260,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.actionbreak" />
-      <item itemvalue="Application.fibonacci" />
       <item itemvalue="Application.caseswitch" />
       <item itemvalue="Application.arreglos" />
       <item itemvalue="Application.matrices" />
+      <item itemvalue="Application.HolaMundo" />
+      <item itemvalue="Application.ManejoVariablesTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ManejoVariablesTest" />
+        <item itemvalue="Application.HolaMundo" />
         <item itemvalue="Application.matrices" />
         <item itemvalue="Application.arreglos" />
         <item itemvalue="Application.caseswitch" />
-        <item itemvalue="Application.fibonacci" />
-        <item itemvalue="Application.actionbreak" />
       </list>
     </recent_temporary>
   </component>
@@ -281,25 +288,27 @@
       <updated>1534802715137</updated>
       <workItem from="1534954830937" duration="4114000" />
       <workItem from="1534960753230" duration="3171000" />
-      <workItem from="1534967684805" duration="3105000" />
+      <workItem from="1534967684805" duration="10695000" />
+      <workItem from="1535062774033" duration="4576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10390000" />
+    <option name="totallyTimeSpent" value="22556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-2" y="33" width="1122" height="1056" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49590164" weight="0.17040598" />
+      <window_info id="Structure" order="1" sideWeight="0.50409836" side_tool="true" weight="0.16949153" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.47071582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47071582" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -323,13 +332,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/production/holamundo/paquete/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/holamundo/paquete/Main.class" />
     <entry file="file://$PROJECT_DIR$/src/paquete/actionbreak.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -383,16 +386,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/paquete/ciclofor.java">
+    <entry file="file://$PROJECT_DIR$/src/paquete/Carro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/paquete/matrices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="349">
           <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
@@ -404,10 +407,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/paquete/Carro.java">
+    <entry file="file://$PROJECT_DIR$/src/paquete/ciclofor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="879" column="16" selection-start-line="879" selection-start-column="16" selection-end-line="879" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leccion01/holamundo/HolaMundo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leccion2/ManejoVariables/ManejoVariablesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
         </state>
       </provider>
     </entry>

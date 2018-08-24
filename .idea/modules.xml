@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/holamundo.iml" filepath="$PROJECT_DIR$/holamundo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fundamentosjava.iml" filepath="$PROJECT_DIR$/fundamentosjava.iml" />
     </modules>
   </component>
 </project>
