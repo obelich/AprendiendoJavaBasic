@@ -5,17 +5,12 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
-
-	<bean id="admin" class="com.novellius.Administrador">
-
-	<property name="idAd" value="77"></property>
-	<property name="nombre" value="Nexus"></property>
-<!-- 	<property name="direccion" ref="direccion"></property> -->
-	</bean>
-	
-<!-- 	<bean id="direccion" class="com.novellius.Direccion">
-		<constructor-arg name="calle" value="Encino"></constructor-arg>
-		<constructor-arg name="cp" value="22130"></constructor-arg>
-	</bean> -->
 	<context:component-scan base-package="com.novellius"></context:component-scan>
+	<bean id="dataSource"
+		class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+		<property name="url" value="jdbc:mysql//127.0.0.1:3306/springdb"></property>
+		<property name="username" value="root"></property>
+		<property name="password" value="12345"></property>
+	</bean>
 </beans>
