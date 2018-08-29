@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 import com.novellius.pojo.Administrators;
 
-@Component
+@Component("administratorsDao")
 public class AdministratorsDaoImpl implements AdministratorsDao {
 	
 	private NamedParameterJdbcTemplate jdbcTemplate;
