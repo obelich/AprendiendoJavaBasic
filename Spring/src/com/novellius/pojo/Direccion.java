@@ -1,4 +1,4 @@
-package com.novellius;
+package com.novellius.pojo;
 
 import org.springframework.stereotype.Component;
 
