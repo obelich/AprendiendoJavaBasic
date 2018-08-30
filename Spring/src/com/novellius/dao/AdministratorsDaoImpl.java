@@ -9,6 +9,7 @@ import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Component;
@@ -27,11 +28,16 @@ public class AdministratorsDaoImpl implements AdministratorsDao {
 
 	@Override
 	public boolean save(Administrators administrators) {
-		// TODO Auto-generated method stub
-		MapSqlParameterSource paramMap = new MapSqlParameterSource();
-		paramMap.addValue("names", administrators.getNames());
-		paramMap.addValue("role", administrators.getRole());
-		paramMap.addValue("created_at", administrators.getCreated_at());
+		//Seteamos los campos de modo manual que vamos a usar
+		
+			//MapSqlParameterSource paramMap = new MapSqlParameterSource();
+			//paramMap.addValue("names", administrators.getNames());
+			//paramMap.addValue("role", administrators.getRole());
+			//paramMap.addValue("created_at", administrators.getCreated_at());   
+			
+		//Seteamos de modo automatico.
+		BeanPropertySqlParameterSource paramMap = new BeanPropertySqlParameterSource(administrators); //Esto funciona si los seters tienen el mismo nombre 
+		//que los campos en la abse de datos
 		
 		return jdbcTemplate.update("insert into Administrators (names, role, created_at) values (:names, :role, :created_at)", paramMap) == 1;
 	}
