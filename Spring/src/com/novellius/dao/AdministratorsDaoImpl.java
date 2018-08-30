@@ -1,5 +1,7 @@
 package com.novellius.dao;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
@@ -38,6 +40,19 @@ public class AdministratorsDaoImpl implements AdministratorsDao {
 	public List<Administrators> findAll() {
 		// TODO Auto-generated method stub
 		return jdbcTemplate.query("select * from administrators", new RowMapper<Administrators>() {
+
+			@Override
+			public Administrators mapRow(ResultSet rs, int rowNum) throws SQLException {
+				// TODO Auto-generated method stub
+				Administrators administrator = new Administrators();
+				
+				administrator.setId(rs.getInt("id"));
+				administrator.setRole(rs.getString("role"));
+				administrator.setNames(rs.getString("names"));
+				administrator.setCreated_at(rs.getTimestamp("created_at"));
+				
+				return administrator;
+			}
 		});
 	}
 

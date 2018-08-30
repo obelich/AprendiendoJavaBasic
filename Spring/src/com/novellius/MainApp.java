@@ -2,6 +2,7 @@ package com.novellius;
 
 import java.sql.Timestamp;
 import java.util.Date;
+import java.util.List;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -25,6 +26,13 @@ public class MainApp {
 		try {
 			if (administratorsDao.save(administrator)) {
 				System.out.println("Si se guardo");
+				
+				List<Administrators> admins = administratorsDao.findAll();
+				
+				for (Administrators admin : admins) {
+					System.out.println(admin);
+					
+				}
 			}
 
 		} catch (CannotGetJdbcConnectionException ex) {
