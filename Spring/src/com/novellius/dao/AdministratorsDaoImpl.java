@@ -1,8 +1,12 @@
 package com.novellius.dao;
 
+import java.util.List;
+import java.util.Map;
+
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Component;
@@ -28,6 +32,13 @@ public class AdministratorsDaoImpl implements AdministratorsDao {
 		paramMap.addValue("created_at", administrators.getCreated_at());
 		
 		return jdbcTemplate.update("insert into Administrators (names, role, created_at) values (:names, :role, :created_at)", paramMap) == 1;
+	}
+
+	@Override
+	public List<Administrators> findAll() {
+		// TODO Auto-generated method stub
+		return jdbcTemplate.query("select * from administrators", new RowMapper<Administrators>() {
+		});
 	}
 
 }
