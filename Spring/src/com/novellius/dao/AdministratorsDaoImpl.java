@@ -76,7 +76,7 @@ public class AdministratorsDaoImpl implements AdministratorDao {
 	@Override
 	public List<Administrators> findByNames(String names) {
 		// TODO Auto-generated method stub
-		return jdbcTemplate.query("SELECT * FROM Administrators WHERE LIKE names :names", new MapSqlParameterSource("names",  "%" + names + "%"), new AdministratorRowMapper());
+		return jdbcTemplate.query("SELECT * FROM Administrators WHERE names LIKE :names", new MapSqlParameterSource("names",  "%" + names + "%"), new AdministratorRowMapper());
 	}
 
 }

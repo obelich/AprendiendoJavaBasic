@@ -25,6 +25,7 @@ public class MainApp {
 
 		try {
 			System.out.println(administratorsDao.findById(1));
+			System.out.println(administratorsDao.findByNames("Oscar").toString());
 //			if (administratorsDao.save(administrator)) {
 //				System.out.println("Si se guardo");
 //				
