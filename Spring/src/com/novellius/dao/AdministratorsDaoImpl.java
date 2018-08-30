@@ -14,10 +14,11 @@ import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Component;
 
+import com.novellius.pojo.AdministratorRowMapper;
 import com.novellius.pojo.Administrators;
 
 @Component("administratorsDao")
-public class AdministratorsDaoImpl implements AdministratorsDao {
+public class AdministratorsDaoImpl implements AdministratorDao {
 	
 	private NamedParameterJdbcTemplate jdbcTemplate;
 	
@@ -60,6 +61,22 @@ public class AdministratorsDaoImpl implements AdministratorsDao {
 				return administrator;
 			}
 		});
+	}
+
+	@Override
+	public Administrators findById(int id) {
+		// TODO Auto-generated method stub
+		//Primer modo de hacer la consulta
+//			return (Administrators) jdbcTemplate.query("SELECT * FROM Administrators WHERE id = :id", new MapSqlParameterSource("id", id), new AdministratorRowMapper());
+		
+		//Segundo modo de hacer la consulta sin tener que hacer un casting
+		return jdbcTemplate.queryForObject("SELECT * FROM Administrators WHERE id = :id", new MapSqlParameterSource("id", id), new AdministratorRowMapper());
+	}
+
+	@Override
+	public List<Administrators> findByNames(String names) {
+		// TODO Auto-generated method stub
+		return jdbcTemplate.query("SELECT * FROM Administrators WHERE LIKE names :names", new MapSqlParameterSource("names",  "%" + names + "%"), new AdministratorRowMapper());
 	}
 
 }

@@ -9,31 +9,32 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.CannotGetJdbcConnectionException;
 
-import com.novellius.dao.AdministratorsDao;
+import com.novellius.dao.AdministratorDao;
 import com.novellius.pojo.Administrators;
 
 public class MainApp {
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring_config.xml");
 
-		AdministratorsDao administratorsDao = (AdministratorsDao) applicationContext.getBean("administratorsDao");
+		AdministratorDao administratorsDao = (AdministratorDao) applicationContext.getBean("administratorsDao");
 		Timestamp ts = new Timestamp(new Date().getTime());
 		Administrators administrator = new Administrators();
-		administrator.setRole("Gerente");
-		administrator.setNames("Miguel Amezcua");
+		administrator.setRole("Atencion a clientes");
+		administrator.setNames("Oscar");
 		administrator.setCreated_at(ts);
 
 		try {
-			if (administratorsDao.save(administrator)) {
-				System.out.println("Si se guardo");
-				
-				List<Administrators> admins = administratorsDao.findAll();
-				
-				for (Administrators admin : admins) {
-					System.out.println(admin);
-					
-				}
-			}
+			System.out.println(administratorsDao.findById(1));
+//			if (administratorsDao.save(administrator)) {
+//				System.out.println("Si se guardo");
+//				
+//				List<Administrators> admins = administratorsDao.findAll();
+//				
+//				for (Administrators admin : admins) {
+//					System.out.println(admin);
+//					
+//				}
+//			}
 
 		} catch (CannotGetJdbcConnectionException ex) {
 			// TODO: handle exception
