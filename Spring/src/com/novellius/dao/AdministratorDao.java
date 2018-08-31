@@ -9,6 +9,8 @@ public interface AdministratorDao {
 	public List<Administrators> findAll();
 	public Administrators findById(int id);
 	public List<Administrators> findByNames(String names);
+	public boolean update(Administrators administrator);
+	public boolean delete(int id);
 	
 
 }

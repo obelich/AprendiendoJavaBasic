@@ -79,4 +79,16 @@ public class AdministratorsDaoImpl implements AdministratorDao {
 		return jdbcTemplate.query("SELECT * FROM Administrators WHERE names LIKE :names", new MapSqlParameterSource("names",  "%" + names + "%"), new AdministratorRowMapper());
 	}
 
+	@Override
+	public boolean update(Administrators administrator) {
+		// TODO Auto-generated method stub
+		return jdbcTemplate.update("update Administrators set names=:names, role=:role, updated_at=:updated_at", new BeanPropertySqlParameterSource(administrator)) == 1;
+	}
+
+	@Override
+	public boolean delete(int id) {
+		// TODO Auto-generated method stub
+		return jdbcTemplate.update("delete from Administrators where id=:id", new MapSqlParameterSource("id", id)) == 1;
+	}
+
 }
