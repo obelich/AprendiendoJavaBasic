@@ -15,7 +15,7 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Component;
 
 import com.novellius.pojo.AdministratorRowMapper;
-import com.novellius.pojo.Administrators;
+import com.novellius.pojo.Administrator;
 
 @Component("administratorsDao")
 public class AdministratorsDaoImpl implements AdministratorDao {
@@ -28,7 +28,7 @@ public class AdministratorsDaoImpl implements AdministratorDao {
 	}
 
 	@Override
-	public boolean save(Administrators administrators) {
+	public boolean save(Administrator administrators) {
 		//Seteamos los campos de modo manual que vamos a usar
 		
 			//MapSqlParameterSource paramMap = new MapSqlParameterSource();
@@ -44,14 +44,14 @@ public class AdministratorsDaoImpl implements AdministratorDao {
 	}
 
 	@Override
-	public List<Administrators> findAll() {
+	public List<Administrator> findAll() {
 		// TODO Auto-generated method stub
-		return jdbcTemplate.query("select * from administrators", new RowMapper<Administrators>() {
+		return jdbcTemplate.query("select * from administrators", new RowMapper<Administrator>() {
 
 			@Override
-			public Administrators mapRow(ResultSet rs, int rowNum) throws SQLException {
+			public Administrator mapRow(ResultSet rs, int rowNum) throws SQLException {
 				// TODO Auto-generated method stub
-				Administrators administrator = new Administrators();
+				Administrator administrator = new Administrator();
 				
 				administrator.setId(rs.getInt("id"));
 				administrator.setRole(rs.getString("role"));
@@ -64,7 +64,7 @@ public class AdministratorsDaoImpl implements AdministratorDao {
 	}
 
 	@Override
-	public Administrators findById(int id) {
+	public Administrator findById(int id) {
 		// TODO Auto-generated method stub
 		//Primer modo de hacer la consulta
 //			return (Administrators) jdbcTemplate.query("SELECT * FROM Administrators WHERE id = :id", new MapSqlParameterSource("id", id), new AdministratorRowMapper());
@@ -74,15 +74,15 @@ public class AdministratorsDaoImpl implements AdministratorDao {
 	}
 
 	@Override
-	public List<Administrators> findByNames(String names) {
+	public List<Administrator> findByNames(String names) {
 		// TODO Auto-generated method stub
 		return jdbcTemplate.query("SELECT * FROM Administrators WHERE names LIKE :names", new MapSqlParameterSource("names",  "%" + names + "%"), new AdministratorRowMapper());
 	}
 
 	@Override
-	public boolean update(Administrators administrator) {
+	public boolean update(Administrator administrator) {
 		// TODO Auto-generated method stub
-		return jdbcTemplate.update("update Administrators set names=:names, role=:role, updated_at=:updated_at", new BeanPropertySqlParameterSource(administrator)) == 1;
+		return jdbcTemplate.update("update Administrators set names=:names, role=:role, created_at=:created_at  where id=:id", new BeanPropertySqlParameterSource(administrator)) == 1;
 	}
 
 	@Override

@@ -3,7 +3,7 @@ package com.novellius.pojo;
 import java.sql.Timestamp;
 
 
-public class Administrators {
+public class Administrator {
 
 	private int id;
 	private String names;

@@ -5,11 +5,11 @@ import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-public class AdministratorRowMapper implements RowMapper<Administrators>{
+public class AdministratorRowMapper implements RowMapper<Administrator>{
 
 	@Override
-	public Administrators mapRow(ResultSet rs, int rowNum) throws SQLException {
-		Administrators administrator = new Administrators();
+	public Administrator mapRow(ResultSet rs, int rowNum) throws SQLException {
+		Administrator administrator = new Administrator();
 		
 		administrator.setId(rs.getInt("id"));
 		administrator.setRole(rs.getString("role"));

@@ -10,32 +10,31 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.CannotGetJdbcConnectionException;
 
 import com.novellius.dao.AdministratorDao;
-import com.novellius.pojo.Administrators;
+import com.novellius.pojo.Administrator;
 
 public class MainApp {
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring_config.xml");
 
 		AdministratorDao administratorsDao = (AdministratorDao) applicationContext.getBean("administratorsDao");
-		Timestamp ts = new Timestamp(new Date().getTime());
-		Administrators administrator = new Administrators();
-		administrator.setRole("Atencion a clientes");
-		administrator.setNames("Oscar");
-		administrator.setCreated_at(ts);
+//		Timestamp ts = new Timestamp(new Date().getTime());
+//		Administrators administrator = new Administrators();
+//		administrator.setRole("Atencion a clientes");
+//		administrator.setNames("Oscar");
+//		administrator.setCreated_at(ts);
 
 		try {
-			System.out.println(administratorsDao.findById(1));
-			System.out.println(administratorsDao.findByNames("Oscar").toString());
-//			if (administratorsDao.save(administrator)) {
-//				System.out.println("Si se guardo");
-//				
-//				List<Administrators> admins = administratorsDao.findAll();
-//				
-//				for (Administrators admin : admins) {
-//					System.out.println(admin);
-//					
-//				}
-//			}
+			Administrator administrator = administratorsDao.findById(1);
+			
+			System.out.println(administrator);
+			administrator.setRole("Sub-gerente");
+			administrator.setNames("Gonzalez");
+			
+			if (administratorsDao.update(administrator)) {
+				System.out.println("Administrador actualizado");
+				
+			}
+
 
 		} catch (CannotGetJdbcConnectionException ex) {
 			// TODO: handle exception
