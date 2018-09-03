@@ -16,7 +16,7 @@ public class MainApp {
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring_config.xml");
 
-		AdministratorDao administratorsDao = (AdministratorDao) applicationContext.getBean("administratorsDao");
+		AdministratorDao administratorDao = (AdministratorDao) applicationContext.getBean("administratorsDao");
 //		Timestamp ts = new Timestamp(new Date().getTime());
 //		Administrators administrator = new Administrators();
 //		administrator.setRole("Atencion a clientes");
@@ -24,15 +24,19 @@ public class MainApp {
 //		administrator.setCreated_at(ts);
 
 		try {
-			Administrator administrator = administratorsDao.findById(1);
+			Administrator administrator = administratorDao.findById(1);
 			
 			System.out.println(administrator);
 			administrator.setRole("Sub-gerente");
 			administrator.setNames("Gonzalez");
 			
-			if (administratorsDao.update(administrator)) {
+			if (administratorDao.update(administrator)) {
 				System.out.println("Administrador actualizado");
 				
+			}
+			
+			if (administratorDao.delete(administrator.getId())) {
+				System.out.println("Administrador eliminadoo");
 			}
 
 
