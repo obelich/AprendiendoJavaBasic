@@ -9,6 +9,15 @@ public class Administrator {
 	private String names;
 	private String role;
 	private Timestamp created_at;
+	
+	
+
+	public Administrator(String names, String role, Timestamp created_at) {
+		super();
+		this.names = names;
+		this.role = role;
+		this.created_at = created_at;
+	}
 
 	public int getId() {
 		return id;

@@ -12,6 +12,8 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.jdbc.core.namedparam.SqlParameterSource;
+import org.springframework.jdbc.core.namedparam.SqlParameterSourceUtils;
 import org.springframework.stereotype.Component;
 
 import com.novellius.pojo.AdministratorRowMapper;
@@ -89,6 +91,13 @@ public class AdministratorsDaoImpl implements AdministratorDao {
 	public boolean delete(int id) {
 		// TODO Auto-generated method stub
 		return jdbcTemplate.update("delete from Administrators where id=:id", new MapSqlParameterSource("id", id)) == 1;
+	}
+
+	@Override
+	public void saveAll(List<Administrator> administrators) {
+		// TODO Auto-generated method stub
+		SqlParameterSource[] batchArgs = SqlParameterSourceUtils.createBatch(administrators.toArray());
+		jdbcTemplate.batchUpdate("insert into Administrators (names, role, created_at) values (:names, :role, :created_at)", batchArgs);
 	}
 
 }
