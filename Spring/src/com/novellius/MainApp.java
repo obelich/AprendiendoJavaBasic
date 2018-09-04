@@ -33,7 +33,7 @@ public class MainApp {
 			
 			int[] vals = administratorDao.saveAll(administrators);
 			
-			for (int i = 0; i < vals.length; i++) {
+			for (int i : vals) {
 				System.out.println("Filas afectadas para esta operacion: " + i);
 			}
 			
