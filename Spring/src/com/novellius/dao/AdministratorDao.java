@@ -11,7 +11,7 @@ public interface AdministratorDao {
 	public List<Administrator> findByNames(String names);
 	public boolean update(Administrator administrator);
 	public boolean delete(int id);
-	public void saveAll(List<Administrator> administrators);
+	public int[] saveAll(List<Administrator> administrators);
 	
 
 }

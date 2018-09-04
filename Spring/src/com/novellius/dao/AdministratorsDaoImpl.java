@@ -94,10 +94,10 @@ public class AdministratorsDaoImpl implements AdministratorDao {
 	}
 
 	@Override
-	public void saveAll(List<Administrator> administrators) {
+	public int[] saveAll(List<Administrator> administrators) {
 		// TODO Auto-generated method stub
 		SqlParameterSource[] batchArgs = SqlParameterSourceUtils.createBatch(administrators.toArray());
-		jdbcTemplate.batchUpdate("insert into Administrators (names, role, created_at) values (:names, :role, :created_at)", batchArgs);
+		return jdbcTemplate.batchUpdate("insert into Administrators (names, role, created_at) values (:names, :role, :created_at)", batchArgs);
 	}
 
 }

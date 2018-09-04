@@ -10,6 +10,9 @@ public class Administrator {
 	private String role;
 	private Timestamp created_at;
 	
+	public Administrator() {
+		
+	}
 	
 
 	public Administrator(String names, String role, Timestamp created_at) {
