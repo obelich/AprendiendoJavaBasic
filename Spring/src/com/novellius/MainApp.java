@@ -26,10 +26,10 @@ public class MainApp {
 
 		try {
 			List<Administrator> administrators = new ArrayList<Administrator>();
-			administrators.add(new Administrator("Pedro", "Jefe de Ingenieros", ts));
-			administrators.add(new Administrator("Juan", "Asistente", ts));
+			administrators.add(new Administrator( "Pedro", "Jefe de Ingenieros", ts));
+			administrators.add(new Administrator( "Juan", "Asistente", ts));
 			administrators.add(new Administrator("Roberto", "Administrador", ts));
-			administrators.add(new Administrator("Luis", "Asistente", ts));
+			administrators.add(new Administrator( "Luis", "Asistente", ts));
 			
 			int[] vals = administratorDao.saveAll(administrators);
 			

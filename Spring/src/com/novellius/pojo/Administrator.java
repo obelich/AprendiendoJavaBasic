@@ -2,21 +2,25 @@ package com.novellius.pojo;
 
 import java.sql.Timestamp;
 
-
 public class Administrator {
 
 	private int id;
 	private String names;
 	private String role;
 	private Timestamp created_at;
-	
+
 	public Administrator() {
-		
+
 	}
-	
+
+	public Administrator(int id, String names, String role, Timestamp created_at) {
+		this.id = id;
+		this.names = names;
+		this.role = role;
+		this.created_at = created_at;
+	}
 
 	public Administrator(String names, String role, Timestamp created_at) {
-		super();
 		this.names = names;
 		this.role = role;
 		this.created_at = created_at;
