@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="sf" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,8 +10,23 @@
 </head>
 <body>
 
-Atributo usando el modelo: <c:out value="${mensaje }"></c:out> <br />
-Atributo usando Session: <c:out value="${sessionScope.resultado }"></c:out> <br />
+<sf:form action="${pageContext.request.contextPath }/admin/save" method="post" commandName="admin">
+
+	<table>
+		<tr>
+			<td>Nombre</td>
+			<td> <sf:input path="nombre" type="text" /> </td>
+		</tr>
+		<tr>
+			<td>Cargo</td>
+			<td> <sf:input path="cargo" type="text"/> </td>
+		</tr>
+		<tr>
+			<td> <input type="submit" value="Guardar Cambios">  </td>
+		</tr>
+	</table>
+</sf:form>
+
 
 </body>
 </html>
