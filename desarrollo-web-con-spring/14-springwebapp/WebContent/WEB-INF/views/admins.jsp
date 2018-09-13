@@ -15,17 +15,23 @@
 	<table>
 		<tr>
 			<td>Nombre</td>
-			<td> <sf:input path="nombre" type="text" /> </td>
+			<td> <sf:input path="names" type="text" /> </td>
 		</tr>
 		<tr>
 			<td>Cargo</td>
-			<td> <sf:input path="cargo" type="text"/> </td>
+			<td> <sf:input path="role" type="text"/> </td>
 		</tr>
 		<tr>
 			<td> <input type="submit" value="Guardar Cambios">  </td>
 		</tr>
+		<tr>
+			<td>estado</td>
+			<td> <input name="status" type="text" /> </td>
+		</tr>
 	</table>
 </sf:form>
+
+<c:out value="${resultado }"></c:out>
 
 
 </body>

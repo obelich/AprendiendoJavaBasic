@@ -25,10 +25,6 @@ public class IndexController {
 		return "about";
 	}
 	
-	@RequestMapping("/admins")
-	public String showAdmin(Model model) { //Con Model se le pasan atributos del controlador a la vista
-		model.addAttribute("mensaje", "Mensaje desde el modelo");
-		return "admins";
-	}
+
 
 }

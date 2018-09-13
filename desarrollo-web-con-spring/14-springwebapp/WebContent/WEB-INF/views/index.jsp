@@ -12,8 +12,9 @@
 <h1>Hola JSP</h1>
 
 <a href='<c:url value="/about" />'>Acerca de</a> <br />
-Atributo usando el modelo: <c:out value="${mensaje}"></c:out> <br />
-Atributo usando Session: <c:out value="${sessionScope.resultado}"></c:out> <br />
+<a href='<c:url value="admins" />'>Crear Administrador</a> <br />
+<c:out value="${adminForm}"></c:out> <br />
 
+<c:out value="${adminForm.names}"></c:out> <br />
 </body>
 </html>

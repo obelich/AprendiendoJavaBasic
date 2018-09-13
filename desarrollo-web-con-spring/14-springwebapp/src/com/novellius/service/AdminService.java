@@ -1,0 +1,27 @@
+package com.novellius.service;
+
+import java.sql.Timestamp;
+import java.util.Date;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.novellius.dao.AdministratorDao;
+import com.novellius.pojo.Administrator;
+
+@Service
+public class AdminService {
+	
+	@Autowired
+	private AdministratorDao administratorDao;
+	
+	public boolean save(Administrator administrator) {
+		
+		Timestamp ts = new Timestamp(new Date().getTime());
+		administrator.setCreated_at(ts);
+		
+		
+		return administratorDao.save(administrator);
+	}
+
+}
