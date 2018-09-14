@@ -1,5 +1,7 @@
 package com.novellius.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -21,14 +23,21 @@ public class AdminController {
 	@RequestMapping("/admins")
 	public String showAdmin(Model model, @ModelAttribute("resultado") String resultado) { //Con Model se le pasan atributos del controlador a la vista
 		
+		List<Administrator> administrators = adminService.findAll();
+		
+		
 		Administrator administrator = new Administrator();
-		model.addAttribute("admin", administrator);
+		model.addAttribute("administrators", administrators);
+		model.addAttribute("administrator", administrator);
 		model.addAttribute("resultado", resultado);
+		
+		
+		
 		return "admins";
 	}
 	
 	@RequestMapping(value="/admin/save", method=RequestMethod.POST)
-	public String handleAdmin(@ModelAttribute("admin") Administrator adminForm,  Model model, RedirectAttributes re, @RequestParam("status") String status ) {
+	public String handleAdmin(@ModelAttribute("administrator") Administrator adminForm,  Model model, RedirectAttributes re, @RequestParam("status") String status ) {
 		
 		if (adminService.save(adminForm)) {
 			re.addAttribute("resultado", "El administrador se creo con exito");

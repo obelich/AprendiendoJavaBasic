@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<sf:form action="${pageContext.request.contextPath }/admin/save" method="post" commandName="admin">
+<sf:form action="${pageContext.request.contextPath }/admin/save" method="post" commandName="administrator">
 
 	<table>
 		<tr>
@@ -31,7 +31,12 @@
 	</table>
 </sf:form>
 
-<c:out value="${resultado }"></c:out>
+
+
+<c:forEach items="${administrators}" var="administrator">
+	
+	<c:out value="${administrator }"></c:out> <br />
+</c:forEach>
 
 
 </body>
