@@ -13,6 +13,9 @@
 <sf:form action="${pageContext.request.contextPath }/admin/save" method="post" commandName="administrator">
 
 	<table>
+		<sf:input path="id" type="hidden" />
+		<sf:input path="created_at" type="hidden" />
+		
 		<tr>
 			<td>Nombre</td>
 			<td> <sf:input path="names" type="text" /> </td>
@@ -35,7 +38,9 @@
 
 <c:forEach items="${administrators}" var="administrator">
 	
-	<c:out value="${administrator }"></c:out> <br />
+	<c:out value="${administrator }"></c:out> 
+		<a href='<c:url value="/admin/${administrator.id}/edit" />'>Edit administration</a>
+	 <br />
 </c:forEach>
 
 

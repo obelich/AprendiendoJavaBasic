@@ -29,4 +29,9 @@ public class AdminService {
 		return administratorDao.findAll();
 	}
 
+	public Administrator findById(int id) {
+		// TODO Auto-generated method stub
+		return administratorDao.findById(id);
+	}
+
 }
