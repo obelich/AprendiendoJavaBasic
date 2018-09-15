@@ -10,22 +10,38 @@
 </head>
 <body>
 
-<sf:form action="${pageContext.request.contextPath }/admin/save" method="post" commandName="admin">
+<sf:form action="${pageContext.request.contextPath }/admin/save" method="post" commandName="administrator">
 
 	<table>
+		<sf:input path="id" type="hidden" />
+		<sf:input path="created_at" type="hidden" />
+		
 		<tr>
 			<td>Nombre</td>
-			<td> <sf:input path="nombre" type="text" /> </td>
+			<td> <sf:input path="names" type="text" /> </td>
 		</tr>
 		<tr>
 			<td>Cargo</td>
-			<td> <sf:input path="cargo" type="text"/> </td>
+			<td> <sf:input path="role" type="text"/> </td>
 		</tr>
 		<tr>
 			<td> <input type="submit" value="Guardar Cambios">  </td>
 		</tr>
+		<tr>
+			<td>estado</td>
+			<td> <input name="status" type="text" /> </td>
+		</tr>
 	</table>
 </sf:form>
+
+
+
+<c:forEach items="${administrators}" var="administrator">
+	
+	<c:out value="${administrator }"></c:out> 
+		<a href='<c:url value="/admin/${administrator.id}/edit" />'>Edit administration</a>
+	 <br />
+</c:forEach>
 
 
 </body>
