@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="377dadcc-42b3-42e6-b527-e66e22f04523" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CicloDoWhile/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CicloDoWhile/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CicloDoWhile/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CicloDoWhile/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CicloDoWhile/CicloDoWhile.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CicloDoWhile/src/ciclos/CicloDoWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ciclos/CicloWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ciclos/CicloWhileV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CicloDoWhile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CicloDoWhile/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +15,7 @@
     <session id="1743821074">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -47,6 +40,12 @@
           <entry key="JAVA" value="298" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.php.new.class" />
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.new.test" />
     </session>
   </component>
   <component name="FileEditorManager">
@@ -95,6 +94,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="2703" />
     <option name="y" value="442" />
@@ -125,7 +127,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536723828629" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536724363753" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -187,12 +189,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536722229747</updated>
-      <workItem from="1536722241720" duration="1576000" />
+      <workItem from="1536722241720" duration="2008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1576000" />
+    <option name="totallyTimeSpent" value="2008000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -205,7 +207,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2703" y="442" width="964" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64748204" visible="true" weight="0.2875817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -218,7 +219,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34170306" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34170306" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
