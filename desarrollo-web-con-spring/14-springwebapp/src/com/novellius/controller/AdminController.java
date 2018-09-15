@@ -40,7 +40,7 @@ public class AdminController {
 	@RequestMapping(value="/admin/save", method=RequestMethod.POST)
 	public String handleAdmin(@ModelAttribute("administrator") Administrator adminForm,  Model model, RedirectAttributes re, @RequestParam("status") String status ) {
 		
-		if (adminService.save(adminForm)) {
+		if (adminService.saveOrUpdate(adminForm)) {
 			re.addAttribute("resultado", "El administrador se creo con exito");
 		} else {
 			re.addAttribute("resultado", "El administrador No se guardo");

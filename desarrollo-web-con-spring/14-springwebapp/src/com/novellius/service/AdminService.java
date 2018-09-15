@@ -34,4 +34,9 @@ public class AdminService {
 		return administratorDao.findById(id);
 	}
 
+	public boolean saveOrUpdate(Administrator adminForm) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
