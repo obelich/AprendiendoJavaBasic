@@ -6,15 +6,25 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<script src='<c:url value="/res/javascript/jquery-3.3.1.min.js" />   '></script>
+
 <title>Insert title here</title>
+<script>
+$(document).ready(function() {
+	alert("hola");
+});
+</script>
+
 </head>
 <body>
 
 <sf:form action="${pageContext.request.contextPath }/admin/save" method="post" commandName="administrator">
 
 	<table>
-		<sf:input path="id" type="hidden" />
-		<sf:input path="created_at" type="hidden" />
+		<c:if test="${administrator.id ne 0} }"> 
+			<sf:input path="id" type="hidden" />
+			<sf:input path="created_at" type="hidden" />
+		</c:if>
 		
 		<tr>
 			<td>Nombre</td>
@@ -27,10 +37,7 @@
 		<tr>
 			<td> <input type="submit" value="Guardar Cambios">  </td>
 		</tr>
-		<tr>
-			<td>estado</td>
-			<td> <input name="status" type="text" /> </td>
-		</tr>
+
 	</table>
 </sf:form>
 

@@ -26,20 +26,17 @@ public class AdminController {
 		
 		List<Administrator> administrators = adminService.findAll();
 		
-		
 		Administrator administrator = new Administrator();
 		model.addAttribute("administrators", administrators);
 		model.addAttribute("administrator", administrator);
 		model.addAttribute("resultado", resultado);
 		
-		
-		
 		return "admins";
 	}
 	
 	@RequestMapping(value="/admin/save", method=RequestMethod.POST)
-	public String handleAdmin(@ModelAttribute("administrator") Administrator adminForm,  Model model, RedirectAttributes re, @RequestParam("status") String status ) {
-		
+	public String handleAdmin(@ModelAttribute("administrator") Administrator adminForm,  Model model, RedirectAttributes re) {
+		System.out.println(adminForm);
 		if (adminService.saveOrUpdate(adminForm)) {
 			re.addAttribute("resultado", "El administrador se creo con exito");
 		} else {
@@ -47,8 +44,6 @@ public class AdminController {
 		}
 		
 
-		
-		
 		return "redirect:/admins";
 	}
 	

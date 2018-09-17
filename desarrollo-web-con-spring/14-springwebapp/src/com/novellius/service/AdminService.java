@@ -17,9 +17,7 @@ public class AdminService {
 	private AdministratorDao administratorDao;
 	
 	public boolean save(Administrator administrator) {
-		
-		Timestamp ts = new Timestamp(new Date().getTime());
-		administrator.setCreated_at(ts);
+		administrator.setCreated_at(new Timestamp(new Date().getTime()));
 		
 		
 		return administratorDao.save(administrator);
@@ -37,6 +35,7 @@ public class AdminService {
 	public boolean saveOrUpdate(Administrator administrator) {
 		// TODO Auto-generated method stub
 		if (administrator.getId() == 0) {
+			administrator.setCreated_at(new Timestamp(new Date().getTime()));
 			return administratorDao.save(administrator);
 		} else {
 			return administratorDao.update(administrator);
