@@ -56,5 +56,17 @@ public class AdminController {
 		return "admins";
 	}
 	
+	@RequestMapping("/admin/{id}/delete")
+	public String delete(Model model, @PathVariable("id") int id, RedirectAttributes re) {
+		
+		if (adminService.delete(id)) {
+			re.addAttribute("resultado", "El administrador fue eliminado");
+		} else {
+			re.addAttribute("resultado", "El administrador fue eliminado");
+		}
+		
+		return "redirect:/admins";
+	}
+	
 
 }

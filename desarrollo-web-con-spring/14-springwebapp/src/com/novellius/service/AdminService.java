@@ -43,4 +43,9 @@ public class AdminService {
 		
 	}
 
+	public boolean delete(int id) {
+		// TODO Auto-generated method stub
+		return administratorDao.delete(id);
+	}
+
 }

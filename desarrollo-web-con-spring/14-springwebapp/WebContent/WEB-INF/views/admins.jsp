@@ -11,7 +11,9 @@
 <title>Insert title here</title>
 <script>
 $(document).ready(function() {
-	alert("hola");
+	$(".confirm").on("click", function() {
+		return confirm("Estas seguro de eliminar?");
+	});
 });
 </script>
 
@@ -47,6 +49,7 @@ $(document).ready(function() {
 	
 	<c:out value="${administrator }"></c:out> 
 		<a href='<c:url value="/admin/${administrator.id}/edit" />'>Edit administration</a>
+		<a class="confirm" href='<c:url value="/admin/${administrator.id}/delete" />'>Eliminar administration</a>
 	 <br />
 </c:forEach>
 
