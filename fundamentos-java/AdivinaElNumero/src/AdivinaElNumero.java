@@ -8,17 +8,15 @@ public class AdivinaElNumero {
 
     public void jugar() {
 
-        System.out.println("Cual es tu nombre");
-        String nombreJugador = entrada.nextLine();
-        System.out.printf("Bienvenido %s, vamos a comenzar \n", nombreJugador);
 
-
+        String nombreJugador = obtenerNombreJugador();
+        
         while(juegoActivo) {
             int intentos = 0;
             int min = 0 ;
             int max = 100;
 
-            int numeroJuego = (int) (Math.random() * ((max - min) +1));
+            int numeroJuego = obtenerNumeroAleatorio(min, max);
 
             System.out.printf("%s, he escogido un numero entre %d y %d, adivinalo ", nombreJugador, min, max);
             int numeroJugador;
@@ -42,6 +40,19 @@ public class AdivinaElNumero {
 
         }
 
+    }
+
+    private int obtenerNumeroAleatorio(int min, int max) {
+        return min + (int) (Math.random() * ((max - min) +1));
+    }
+
+    private String obtenerNombreJugador() {
+
+        System.out.println("Cual es tu nombre");
+        String nombreJugador = entrada.nextLine();
+        System.out.printf("Bienvenido %s, vamos a comenzar \n", nombreJugador);
+
+        return nombreJugador;
     }
 
 
