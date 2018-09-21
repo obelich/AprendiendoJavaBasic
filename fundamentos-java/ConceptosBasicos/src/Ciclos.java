@@ -20,7 +20,7 @@ public class Ciclos {
 
         //Ciclo While
 
-        int c = 1;
+        int c = 1; //El contador de while se tiene que declarar antes
         while(c <= cantidad) {
             System.out.printf("Dato %d: \n", c);
             int num = entrada.nextInt();
