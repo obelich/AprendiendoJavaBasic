@@ -10,7 +10,7 @@ public class AdivinaElNumero {
 
 
         String nombreJugador = obtenerNombreJugador();
-        
+
         while(juegoActivo) {
             int intentos = 0;
             int min = 0 ;
