@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="660a6764-eb8d-4422-9ee2-a491611351c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Objetos/com/devcode/tiposdedatos/Auto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/devcode/tiposdedatos/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/devcode/tiposdedatos/AutoBoxing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresDefecto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresPadre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresSobrecarga.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,22 +26,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1700" />
+          <entry key="java" value="2996" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1700" />
+          <entry key="JAVA" value="2996" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.test" />
@@ -64,11 +64,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/devcode/tiposdedatos/AutoBoxing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresDefecto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresSobrecarga.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresPadre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -92,6 +119,9 @@
         <option value="$PROJECT_DIR$/src/com/devcode/objetos/Perro.java" />
         <option value="$PROJECT_DIR$/src/com/devcode/tiposdedatos/Auto.java" />
         <option value="$PROJECT_DIR$/src/com/devcode/tiposdedatos/AutoBoxing.java" />
+        <option value="$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresDefecto.java" />
+        <option value="$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresSobrecarga.java" />
+        <option value="$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresPadre.java" />
       </list>
     </option>
   </component>
@@ -141,6 +171,13 @@
               <item name="Objetos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="devcode" type="462c0819:PsiDirectoryNode" />
+              <item name="constructores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Objetos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Objetos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="devcode" type="462c0819:PsiDirectoryNode" />
               <item name="tiposdedatos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -152,7 +189,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537729172822" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537731863822" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -174,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Auto (1)">
+  <component name="RunManager" selected="Application.ConstructoresPadre">
     <configuration name="Auto (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devcode.tiposdedatos.Auto" />
       <module name="Objetos" />
@@ -188,12 +225,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Auto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devcode.objetos.Auto" />
+    <configuration name="ConstructoresDefecto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devcode.constructores.ConstructoresDefecto" />
       <module name="Objetos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devcode.objetos.*" />
+          <option name="PATTERN" value="com.devcode.constructores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructoresHijo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devcode.constructores.ConstructoresHijo" />
+      <module name="Objetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devcode.constructores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructoresPadre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devcode.constructores.ConstructoresPadre" />
+      <module name="Objetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devcode.constructores.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,15 +278,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Auto" />
       <item itemvalue="Application.Perro" />
       <item itemvalue="Application.Auto (1)" />
+      <item itemvalue="Application.ConstructoresDefecto" />
+      <item itemvalue="Application.ConstructoresHijo" />
+      <item itemvalue="Application.ConstructoresPadre" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstructoresPadre" />
+        <item itemvalue="Application.ConstructoresHijo" />
+        <item itemvalue="Application.ConstructoresDefecto" />
         <item itemvalue="Application.Auto (1)" />
         <item itemvalue="Application.Perro" />
-        <item itemvalue="Application.Auto" />
       </list>
     </recent_temporary>
   </component>
@@ -235,18 +302,18 @@
       <option name="presentableId" value="Default" />
       <updated>1537665784548</updated>
       <workItem from="1537665786415" duration="3448000" />
-      <workItem from="1537726042079" duration="2977000" />
+      <workItem from="1537726042079" duration="6265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6425000" />
+    <option name="totallyTimeSpent" value="9713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64748204" visible="true" weight="0.14247599" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64748204" visible="true" weight="0.178762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="npm" order="3" sideWeight="0.352518" side_tool="true" visible="true" weight="0.13927428" />
@@ -256,7 +323,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -264,8 +331,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24891774" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24891774" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -308,6 +375,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresSobrecarga.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresPadre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresDefecto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
