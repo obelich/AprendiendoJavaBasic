@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="660a6764-eb8d-4422-9ee2-a491611351c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/devcode/modificadoresacceso/Perro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/devcode/modificadoresacceso/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/devcode/objetos/TestModificadores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/devcode/garbaggecollector/Collector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,22 +24,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4248" />
+          <entry key="java" value="4543" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4248" />
+          <entry key="JAVA" value="4543" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.test" />
@@ -104,13 +102,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/devcode/modificadoresacceso/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="140" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="140" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/devcode/garbaggecollector/Collector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/devcode/objetos/TestModificadores.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -123,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresSobrecarga.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+              <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -162,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/com/devcode/modificadoresacceso/Test.java" />
         <option value="$PROJECT_DIR$/src/com/devcode/modificadoresacceso/Perro.java" />
         <option value="$PROJECT_DIR$/src/com/devcode/objetos/TestModificadores.java" />
+        <option value="$PROJECT_DIR$/src/com/devcode/garbaggecollector/Collector.java" />
       </list>
     </option>
   </component>
@@ -206,20 +214,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="devcode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Objetos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Objetos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="devcode" type="462c0819:PsiDirectoryNode" />
-              <item name="modificadoresacceso" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Objetos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Objetos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="devcode" type="462c0819:PsiDirectoryNode" />
-              <item name="objetos" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -229,7 +223,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537735587563" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537746815038" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -342,18 +336,17 @@
       <option name="presentableId" value="Default" />
       <updated>1537665784548</updated>
       <workItem from="1537665786415" duration="3448000" />
-      <workItem from="1537726042079" duration="8809000" />
+      <workItem from="1537726042079" duration="11092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12257000" />
+    <option name="totallyTimeSpent" value="14540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64748204" visible="true" weight="0.178762" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.64748204" visible="true" weight="0.178762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="npm" order="3" sideWeight="0.352518" side_tool="true" visible="true" weight="0.13927428" />
@@ -363,7 +356,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,13 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresSobrecarga.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresPadre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -458,8 +444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/devcode/modificadoresacceso/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="140" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="140" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -467,6 +453,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="117" selection-start-line="10" selection-start-column="117" selection-end-line="10" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/devcode/constructores/ConstructoresSobrecarga.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/devcode/garbaggecollector/Collector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
