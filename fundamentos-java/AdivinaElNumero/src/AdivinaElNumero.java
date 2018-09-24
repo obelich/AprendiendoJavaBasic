@@ -14,7 +14,7 @@ public class AdivinaElNumero {
         while(juegoActivo) {
             int intentos = 0;
             int min = 0 ;
-            int max = 100;
+            int max = 10;
 
             int numeroJuego = obtenerNumeroAleatorio(min, max);
 
@@ -23,20 +23,15 @@ public class AdivinaElNumero {
 
             do {
 
-                System.out.println("Escoge un numero");
-                numeroJugador = entrada.nextInt();
+                numeroJugador = escogerNumero();
 
-                if (numeroJuego < numeroJugador) {
-                    System.out.println("Muy alto, adivina otra vez \n");
-                } else if (numeroJuego > numeroJugador) {
-                    System.out.println("Muy bajo, adivina otra vez \n");
-                }
+                mensaje(numeroJuego, numeroJugador);
                 intentos++;
             } while(numeroJuego != numeroJugador);
 
             System.out.printf("Felicidades adivinaste con %d intentos \n", intentos);
 
-            juegoActivo = false;
+            juegoActivo = jugarNuevamente();
 
         }
 
@@ -55,5 +50,29 @@ public class AdivinaElNumero {
         return nombreJugador;
     }
 
+    private int escogerNumero() {
+        System.out.println("Escoge un numero");
+        return entrada.nextInt();
+    }
+
+    private void mensaje(int numeroJuego, int numeroJugador) {
+        if (numeroJuego < numeroJugador) {
+            System.out.println("Muy alto, adivina otra vez \n");
+        } else if (numeroJuego > numeroJugador) {
+            System.out.println("Muy bajo, adivina otra vez \n");
+        }
+    }
+
+    public boolean jugarNuevamente() {
+        System.out.println("Jugar nuevamente \n1: Si\n2: No");
+        int respuesta = entrada.nextInt();
+        if (respuesta == 1) {
+            System.out.println("Genial, juguemos otra vez");
+            return true;
+        } else {
+            System.out.println("Fin del juego, gracias.");
+            return false;
+        }
+    }
 
 }
