@@ -2,20 +2,25 @@ package modulo5;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class SegundoCaso {
     public static void main(String[] args) {
+
         SegundoCaso segundoCaso = new SegundoCaso();
-        segundoCaso.disparandoExcepcion();
+
+
+        try {
+            segundoCaso.disparandoExcepcion();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 
-    private void disparandoExcepcion() {
-        try {
+    private void disparandoExcepcion() throws IOException {
+
             FileInputStream fis = new FileInputStream("./text.txt");
-        } catch (FileNotFoundException e) {
-            System.out.println("Archivo no encontrado");
-            e.printStackTrace();
-        }
+
     }
 }
