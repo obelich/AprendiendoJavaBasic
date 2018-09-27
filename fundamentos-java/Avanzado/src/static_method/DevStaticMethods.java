@@ -7,6 +7,8 @@ public class DevStaticMethods {
 
     static void llenar() {
         varStatic = "Variable estatica";
+
+        //En un bloque estatico no se pueden acceder a variables no estaticas
         //varNoStatic = "Variable no estatica";
     }
 
@@ -21,6 +23,9 @@ public class DevStaticMethods {
 //        DevStaticMethods.llenar02();
         DevStaticMethods dce = new DevStaticMethods();
         dce.llenar02();
-        //
+
+
+        System.out.println("varStatic: " + varStatic);
+        System.out.println("varNoStatic: " + dce.varNoStatic);
     }
 }
