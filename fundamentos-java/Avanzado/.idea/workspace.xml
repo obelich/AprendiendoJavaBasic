@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="464a8a7a-ec0b-494b-86c2-8e0028279cb1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/stringbuldbuffers/StringBuilder_Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stringbuldbuffers/StringBuilder_Buffer.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2051171550">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="5758" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="5758" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/static_variable/DevStaticVariable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/static_block/DevStaticBlock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/static_method/DevStaticMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/static_class/DevStaticClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tipo_string/StringLiteralObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compare/object_values.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/stringbuldbuffers/StringBuilder_Buffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/abstractas/Animal.java" />
+        <option value="$PROJECT_DIR$/src/abstractas/Caballo.java" />
+        <option value="$PROJECT_DIR$/src/abstractas/Gato.java" />
+        <option value="$PROJECT_DIR$/src/abstractas/Perro.java" />
+        <option value="$PROJECT_DIR$/src/abstractas/App.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/Vehiculo.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/Propulsor.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/Motor.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/Bicicleta.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/Carro.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/Barco.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/App.java" />
+        <option value="$PROJECT_DIR$/src/variable_final/DevCodeFinal.java" />
+        <option value="$PROJECT_DIR$/src/variable_final/DevCodeFinalVariable.java" />
+        <option value="$PROJECT_DIR$/src/variable_final/Hijo.java" />
+        <option value="$PROJECT_DIR$/src/variable_final/App.java" />
+        <option value="$PROJECT_DIR$/src/variable_final/Padre.java" />
+        <option value="$PROJECT_DIR$/src/static_variable/DevStaticVariable.java" />
+        <option value="$PROJECT_DIR$/src/static_block/DevStaticBlock.java" />
+        <option value="$PROJECT_DIR$/src/static_method/DevStaticMethods.java" />
+        <option value="$PROJECT_DIR$/src/static_class/DevStaticClass.java" />
+        <option value="$PROJECT_DIR$/src/tipo_string/StringLiteralObject.java" />
+        <option value="$PROJECT_DIR$/src/compare/object_values.java" />
+        <option value="$PROJECT_DIR$/src/stringbuldbuffers/StringBuilder_Buffer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Introduccion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Avanzado" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Introduccion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Avanzado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.StringBuilder_Buffer">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.App" />
+      <module name="Introduccion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variable_final.App" />
+      <module name="Introduccion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="variable_final.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractas.App" />
+      <module name="Introduccion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstractas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBuilder_Buffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stringbuldbuffers.StringBuilder_Buffer" />
+      <module name="Introduccion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stringbuldbuffers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="object_values" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compare.object_values" />
+      <module name="Introduccion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.App (1)" />
+      <item itemvalue="Application.App (2)" />
+      <item itemvalue="Application.object_values" />
+      <item itemvalue="Application.StringBuilder_Buffer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StringBuilder_Buffer" />
+        <item itemvalue="Application.object_values" />
+        <item itemvalue="Application.App (2)" />
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="464a8a7a-ec0b-494b-86c2-8e0028279cb1" name="Default Changelist" comment="" />
+      <created>1537980088190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537980088190</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Learn" order="2" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.2563966" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46312365" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/abstractas/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractas/Caballo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractas/Gato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#82#83#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractas/Perro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#76#77#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractas/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Vehiculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Motor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Bicicleta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Propulsor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Carro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="149" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Barco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variable_final/DevCodeFinalVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variable_final/Hijo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variable_final/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static_block.java" />
+    <entry file="file://$PROJECT_DIR$/src/variable_final/Padre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#76#77#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static_variable/DevStaticVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static_block/DevStaticBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static_method/DevStaticMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static_class/DevStaticClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compare/object_values.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tipo_string/StringLiteralObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stringbuldbuffers/StringBuilder_Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
