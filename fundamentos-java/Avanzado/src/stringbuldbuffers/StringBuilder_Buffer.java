@@ -1,5 +1,6 @@
 package stringbuldbuffers;
 
+// Anotacion de diamante en java es <>
 //StringObject es inmutable, una vez creada no se puede cambiar o modificar
 //cuando se modifica el original se destruye y se crea uno nuevo lo que hace que esto haga mas lento el sistema
 

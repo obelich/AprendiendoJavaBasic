@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="464a8a7a-ec0b-494b-86c2-8e0028279cb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/compare/object_values.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stringbuldbuffers/StringBuilder_Buffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Introduccion/variable_final/Padre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Introduccion/variable_final/Padre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stringbuldbuffers/StringBuilder_Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stringbuldbuffers/StringBuilder_Buffer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,12 +33,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5718" />
+          <entry key="java" value="5758" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5718" />
+          <entry key="JAVA" value="5758" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -106,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/stringbuldbuffers/StringBuilder_Buffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="93" column="32" lean-forward="true" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+            <state relative-caret-position="34">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -180,18 +177,6 @@
               <item name="Introduccion" type="b2602c69:ProjectViewProjectNode" />
               <item name="Avanzado" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Introduccion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Avanzado" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stringbuldbuffers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Introduccion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Avanzado" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tipo_string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,7 +296,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -321,7 +306,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.2563966" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46312365" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46312365" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stringbuldbuffers/StringBuilder_Buffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="93" column="32" lean-forward="true" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+        <state relative-caret-position="34">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
