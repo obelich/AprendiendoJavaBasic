@@ -1,6 +1,6 @@
 package com.anncode.holamundo;
 
-public class HolaMundo {
+public class HolaMundo { //Las clases siempre seran Upper camel case
 
     public static void main(String[] args) {
 
@@ -26,6 +26,28 @@ public class HolaMundo {
         //Logicos
         boolean isVisible = true; ;// Este solo acepta false o true y usa 2 bytes
         boolean funciona = false;
+
+        //Variables
+
+        int variable = 2; //Java es case sensirive osea que reconoce entre mayusculas y minusculas
+        int _variable = 3; //Una variable puede iniciar con _ O $
+        int $variable = 4; //Las variables no pueden comenzar con numero
+
+        //Las constantes se escriben con mayusculas
+
+        int VALOR = 0; //Las constantes son inmutables, no pueden ser modificada
+        int VALOR_MAXIMO = 1;
+
+        //Lower camel case es para metodos y variables
+        int minValor = 4;
+
+        //Upper camel case
+        int MinValor = 6; //Esto es incorrecto ya que las variables no tienen que iniciar con mayusculas    
+
+
     }
+
+    //los metodos son con Lower camel case
+
 
 }
