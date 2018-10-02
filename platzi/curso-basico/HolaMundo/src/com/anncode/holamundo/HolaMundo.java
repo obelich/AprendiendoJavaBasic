@@ -105,6 +105,35 @@ public class HolaMundo { //Las clases siempre seran Upper camel case
         monkey[1][0][0][1] = 'm';
         System.out.println(monkey[1][0][0][1]);
 
+        System.out.println("Operadores aritmeticos");
+        //Operadores Aritmeticos
+
+        int a = 1;
+        int aa = a+a;
+
+        System.out.println("El valor de aa es: " + aa);
+
+        double x = 2.56;
+        int y = 9;
+
+        float w = (float) x + y;
+        System.out.println(w);
+
+        System.out.println(w*2); //multiplicar
+
+        double k = 4/0.00002; //Division
+        System.out.println(k);
+
+        System.out.println(7%2); //modulus
+
+        int f = 2;
+        int g = 3;
+        //Un modo de sumar
+//        f = f + g;
+        //Seungdo modo de sumar
+        f += g;
+        System.out.println(f);
+
     }
 
     //los metodos son con Lower camel case
