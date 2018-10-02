@@ -71,6 +71,40 @@ public class HolaMundo { //Las clases siempre seran Upper camel case
         short numero = 300;
         byte numeroByte = (byte) numero; //Investigar que pasa si el numero es mayor al tipo donde se castea
         System.out.println(numeroByte);
+
+
+        //Arrays
+        //Declaracion de array
+
+        //Para declarar un array se declara el tipo de dato y se le agrega [] Ejemplo int[]  String[]
+        int[] arregloInt = new int[3]; //Si se declara que es tipo int el contenido tiene que ser tipo int no se podria agregar en el arreglo un char o float etc...
+        double arreglodouble[];
+
+        System.out.println("Arrays");
+        //Array de 2 dimeciones
+        int[][] array2D = new int[2][3]; //A este arreglo le caben 6 objetos
+
+        //Array en 3 dimenciones
+        int[][][] array3D = new int[3][3][2]; //caben 18 objetos
+
+            //Otra forma de declarar arrays
+            char[][] days = { {'L', 'M', 'M'}, {'J', 'V', 'S'} }; //Dos domenciones
+            char[][][] days3D = { { {'a', 'b'}, {'c', 'd'}, {'e','f','g'} }, { {'h', 'i'}, {'j', 'k'}, {'l', 'm'} }  };
+
+            char[] names = new char[4];
+            names[0] = 'h';
+            names[1] = 'o';
+            names[2] = 'l';
+            names[3] = 'a';
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
+
+        char[][][][] monkey = new char [2][3][2][2];
+        monkey[1][0][0][1] = 'm';
+        System.out.println(monkey[1][0][0][1]);
+
     }
 
     //los metodos son con Lower camel case
