@@ -42,9 +42,35 @@ public class HolaMundo { //Las clases siempre seran Upper camel case
         int minValor = 4;
 
         //Upper camel case
-        int MinValor = 6; //Esto es incorrecto ya que las variables no tienen que iniciar con mayusculas    
+        int MinValor = 6; //Esto es incorrecto ya que las variables no tienen que iniciar con mayusculas
 
 
+
+        //Casteo
+
+
+        byte b = 6;
+        short s = b; //Casteo implicito
+
+
+        b = (byte) s; // Casteo explicito
+
+        int i = 1;
+        double d = 2.5;
+
+        i = (int) d;
+
+        System.out.println(i);
+
+        //Casteo a char
+        int codigo = 97;
+        char codigoASCII = (char) codigo;
+
+        System.out.println(codigoASCII);
+
+        short numero = 300;
+        byte numeroByte = (byte) numero; //Investigar que pasa si el numero es mayor al tipo donde se castea
+        System.out.println(numeroByte);
     }
 
     //los metodos son con Lower camel case
