@@ -165,6 +165,14 @@ public class HolaMundo { //Las clases siempre seran Upper camel case
 
         System.out.println("Operadores Logicos");
 
+        boolean n = false;
+        boolean m = true;
+
+        System.out.println("n && m ->" + (n && m) );
+        System.out.println("n || m ->" + (n || m) );
+        System.out.println("!n ->" + (!n) );
+        System.out.println("!m ->" + (!m) );
+
 
     }
 
