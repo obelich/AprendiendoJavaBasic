@@ -174,6 +174,63 @@ public class HolaMundo { //Las clases siempre seran Upper camel case
         System.out.println("!m ->" + (!m) );
 
 
+        System.out.println("Control de flujo");
+        //iF/Else
+
+        if (q > p) {
+            System.out.println("q es mayor que p");
+        } else if (q == p) {
+            System.out.println("p es igual a q");
+        } else {
+            System.out.println("p es mayor que q");
+        }
+
+        //Switch
+        int mes = 8;
+
+        switch (mes) {
+            case 1:
+                System.out.println("Enero");
+                break;
+            case 2:
+                System.out.println("Febrero");
+                break;
+            case 3:
+                System.out.println("Marzo");
+                break;
+            case 4:
+                System.out.println("Abril");
+                break;
+            case 5:
+                System.out.println("Mayo");
+                break;
+            case 6:
+                System.out.println("Junio");
+                break;
+            case 7:
+                System.out.println("Julio");
+                break;
+            case 8:
+                System.out.println("Agosto");
+                break;
+            case 9:
+                System.out.println("Septiembre");
+                break;
+            case 10:
+                System.out.println("Octubre");
+                break;
+            case 11:
+                System.out.println("Noviembre");
+                break;
+            case 12:
+                System.out.println("Diciembre");
+                break;
+            default:
+                System.out.println("mes incorrecto");
+                break;
+        }
+
+
     }
 
     //los metodos son con Lower camel case
