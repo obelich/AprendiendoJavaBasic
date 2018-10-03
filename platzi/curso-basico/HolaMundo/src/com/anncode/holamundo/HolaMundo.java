@@ -6,7 +6,6 @@ public class HolaMundo { //Las clases siempre seran Upper camel case
 
         System.out.println("Hola mundo con Java, Platzi usando un paquete");
 
-
         //Tipos primitivos
 
         //Enteros
@@ -44,11 +43,7 @@ public class HolaMundo { //Las clases siempre seran Upper camel case
         //Upper camel case
         int MinValor = 6; //Esto es incorrecto ya que las variables no tienen que iniciar con mayusculas
 
-
-
         //Casteo
-
-
         byte b = 6;
         short s = b; //Casteo implicito
 
@@ -71,7 +66,6 @@ public class HolaMundo { //Las clases siempre seran Upper camel case
         short numero = 300;
         byte numeroByte = (byte) numero; //Investigar que pasa si el numero es mayor al tipo donde se castea
         System.out.println(numeroByte);
-
 
         //Arrays
         //Declaracion de array
@@ -133,6 +127,27 @@ public class HolaMundo { //Las clases siempre seran Upper camel case
         //Seungdo modo de sumar
         f += g;
         System.out.println(f);
+
+        System.out.println("Operador de incremento y decremento");
+        //Operadores incremento y decremento.
+
+
+        int l = 3;
+//        l++;
+//        ++l;
+//        System.out.println(l);
+
+        //++l
+        //1.- Incrementa el valor l+1
+        //2,- Asignar el valor a l
+//        System.out.println(++l);
+
+        //l++
+        //1.- Asigna el valor a l  l = l
+        //2.- Incrementa el valor l+1
+        System.out.println(l++); //Aqui imrpime el valor de l
+        System.out.println(l); //Aqui ya imprime el valor de l incrementado
+
 
     }
 
