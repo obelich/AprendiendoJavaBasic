@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c6d8d49-4f95-4f4a-8bb5-6ab143c08679" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AmazonViewer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anncode/amazonviewer/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HolaMundo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HolaMundo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HolaMundo/out/production/HolaMundo/com/anncode/holamundo/HolaMundo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HolaMundo/out/production/HolaMundo/com/anncode/holamundo/HolaMundo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HolaMundo/src/com/anncode/holamundo/HolaMundo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HolaMundo/src/com/anncode/holamundo/HolaMundo.java" afterDir="false" />

@@ -229,14 +229,37 @@ public class HolaMundo { //Las clases siempre seran Upper camel case
                 System.out.println("mes incorrecto");
                 break;
         }
-
+        System.out.println("");
 
         //Los ciclos
         //Ciclo While
+        System.out.println("Ciclo While");
         int e = 1;
         while (e <= 5) {
             System.out.println("e es menor o igual que 5 y vale:  " + e);
             e++;
+        }
+
+        //Bucle for
+
+        System.out.println("");
+        System.out.println("Ciclo for");
+        for (int c = 0; c <= 5; c++ ) {
+            System.out.println("c es menor o igual que 5 y vale:  " + c);
+        }
+
+        System.out.println("");
+        System.out.println("Recorriendo arreglos con el ciclo for");
+        int[] numeros = new int[5];
+        for (int c = 0; c < 5; c++ ) {
+            numeros[c] = c;
+            System.out.println("el array numeros["+ c +"]: " + numeros[c]);
+        }
+
+        System.out.println("");
+        //Ciclo Foreach
+        for (int j: numeros) {
+            System.out.println(j);
         }
 
 
