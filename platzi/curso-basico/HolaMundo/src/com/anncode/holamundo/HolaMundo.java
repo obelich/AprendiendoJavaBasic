@@ -148,6 +148,23 @@ public class HolaMundo { //Las clases siempre seran Upper camel case
         System.out.println(l++); //Aqui imrpime el valor de l
         System.out.println(l); //Aqui ya imprime el valor de l incrementado
 
+        System.out.println("Operadores relacionales");
+
+        int q = 5;
+        int p = 4;
+
+        System.out.println( q == p );
+        System.out.println( q != p );
+
+        //Operadores relacionales
+        System.out.println("q > p  -> " + (q > p));
+        System.out.println("q < p  -> " + (q < p));
+
+        System.out.println("q >= p  -> " + (q >= p));
+        System.out.println("q <= p  -> " + (q <= p));
+
+        System.out.println("Operadores Logicos");
+
 
     }
 
