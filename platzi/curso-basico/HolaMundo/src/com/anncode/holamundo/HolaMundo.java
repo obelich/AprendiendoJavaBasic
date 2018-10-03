@@ -231,6 +231,16 @@ public class HolaMundo { //Las clases siempre seran Upper camel case
         }
 
 
+        //Los ciclos
+        //Ciclo While
+        int e = 1;
+        while (e <= 5) {
+            System.out.println("e es menor o igual que 5 y vale:  " + e);
+            e++;
+        }
+
+
+
     }
 
     //los metodos son con Lower camel case
