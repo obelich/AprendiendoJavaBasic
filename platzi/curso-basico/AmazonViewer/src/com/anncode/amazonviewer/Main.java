@@ -1,13 +1,17 @@
 package com.anncode.amazonviewer;
 
 
+import com.anncode.amazonviewer.model.Movie;
+
 import java.util.Date;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        showMenu();
+        Movie movie = new Movie("Coco", "Animation", (short)2017);
+        movie.showData();
+//        showMenu();
 
     }
 
@@ -128,6 +132,7 @@ public class Main {
 
     }
 
+    //Haciendo sobre carga de metodo
     public static void makeReport(Date date) {
 
     }
