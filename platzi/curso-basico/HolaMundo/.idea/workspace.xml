@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bda78d8c-4daa-413e-9665-6deffc299aa7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Chapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Magazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonViewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anncode/holamundo/HolaMundo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anncode/holamundo/HolaMundo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
