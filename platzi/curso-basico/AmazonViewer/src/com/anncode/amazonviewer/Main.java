@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         Movie movie = new Movie("Coco", "Animation", (short)2017);
+        movie.setTitle("Rambo");
         movie.showData();
 //        showMenu();
 
