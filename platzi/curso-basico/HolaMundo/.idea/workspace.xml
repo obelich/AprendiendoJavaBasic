@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bda78d8c-4daa-413e-9665-6deffc299aa7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../AmazonViewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Chapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Magazine.java" afterDir="false" />
