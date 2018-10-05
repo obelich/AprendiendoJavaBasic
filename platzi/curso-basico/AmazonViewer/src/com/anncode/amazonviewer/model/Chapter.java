@@ -8,12 +8,12 @@ public class Chapter extends Movie {
 
     public Chapter(String title, String genre, String creator, int duration, short year, int sessionNumber) {
         super(title, genre, creator, duration, year);
-        this.sessionNumber = sessionNumber;
+        this.setSessionNumber(sessionNumber);
     }
 
     @Override
     public int getId() {
-        return id;
+        return this.id;
     }
 
     public int getSessionNumber() {
@@ -22,5 +22,14 @@ public class Chapter extends Movie {
 
     public void setSessionNumber(int sessionNumber) {
         this.sessionNumber = sessionNumber;
+    }
+
+    @Override
+    public String toString() {
+        return "\n :: CHAPTER :: " +
+                "\n Title: " + getTitle() +
+                "\n year: " + getYear() +
+                "\n Creator: " + getCreator() +
+                "\n Duration: " + getDuration();
     }
 }

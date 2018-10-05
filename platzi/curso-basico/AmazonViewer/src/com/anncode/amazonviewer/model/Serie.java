@@ -30,4 +30,14 @@ public class Serie extends Film {
     public void setChapters(Chapter[] chapters) {
         this.chapters = chapters;
     }
+
+    @Override
+    public String toString() {
+        return "\n :: SERIE :: " +
+                "\n Title: " + getTitle() +
+                "\n Generoe: " + getGenre() +
+                "\n year: " + getYear() +
+                "\n Creator: " + getCreator() +
+                "\n Duration: " + getDuration();
+    }
 }

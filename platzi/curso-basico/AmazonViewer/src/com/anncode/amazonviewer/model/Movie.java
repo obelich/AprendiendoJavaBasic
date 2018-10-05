@@ -1,6 +1,8 @@
 package com.anncode.amazonviewer.model;
 
-public class Movie extends Film {
+import java.util.Date;
+
+public class Movie extends Film implements IVisualizable {
 
     //Cuando se esconde un dato se le llama encapsulamiento
     private int id;
@@ -33,10 +35,25 @@ public class Movie extends Film {
     //Los metodos con final o static no pueden ser sobreescritos
     @Override
     public String toString() {
-        return "Title: " + getTitle() +
+        return "\n :: MOVIE :: " +
+                "\n Title: " + getTitle() +
                 "\n Genero: " + getGenre() +
                 "\n Year: " + getYear() +
                 "\n Creator: " + getCreator() +
                 "\n Duration: " + getDuration();
+    }
+
+    @Override
+    public Date startToSee(Date dateI) {
+        return dateI;
+    }
+
+    @Override
+    public void stopToSee(Date dateI, Date dateF) {
+        if ( dateF.getSeconds() > dateI.getSeconds() ) {
+            setTimeViewed(dateF.getSeconds() - dateI.getSeconds());
+        } else {
+            setTimeViewed(0);
+        }
     }
 }

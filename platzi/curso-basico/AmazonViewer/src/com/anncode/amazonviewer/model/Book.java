@@ -2,23 +2,17 @@ package com.anncode.amazonviewer.model;
 
 import java.util.Date;
 
-public class Book {
+public class Book extends Publication implements IVisualizable {
 
     private int id;
-    private String title;
-    private Date editionDate;
-    private String editorial;
-    private String[] authors;
     private String isbn;
     private boolean readed;
     private int timeReaded;
 
-    public Book(String title, Date editionDate, String editorial, String isbn) {
-        this.title = title;
-        this.editionDate = editionDate;
-        this.editorial = editorial;
-        this.isbn = isbn;
+    public Book(String title, Date editionDate, String editorial, String[] authors) {
+        super(title, editionDate, editorial, authors);
     }
+
 
     public int getId() {
         return id;
@@ -26,38 +20,6 @@ public class Book {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public Date getEditionDate() {
-        return editionDate;
-    }
-
-    public void setEditionDate(Date editionDate) {
-        this.editionDate = editionDate;
-    }
-
-    public String getEditorial() {
-        return editorial;
-    }
-
-    public void setEditorial(String editorial) {
-        this.editorial = editorial;
-    }
-
-    public String[] getAuthors() {
-        return authors;
-    }
-
-    public void setAuthors(String[] authors) {
-        this.authors = authors;
     }
 
     public String getIsbn() {
@@ -82,5 +44,27 @@ public class Book {
 
     public void setTimeReaded(int timeReaded) {
         this.timeReaded = timeReaded;
+    }
+
+    @Override
+    public String toString() {
+        return "\n :: BOOKs ::" +
+                "\n Title: " + getTitle() +
+                "\n Editorial: " + getEditorial() +
+                "\n Edition Date: " + getEditionDate();
+    }
+
+    @Override
+    public Date startToSee(Date dateI) {
+        return dateI;
+    }
+
+    @Override
+    public void stopToSee(Date dateI, Date dateF) {
+        if ( dateF.getSeconds() > dateI.getSeconds() ) {
+            setTimeReaded(dateF.getSeconds() - dateI.getSeconds());
+        } else {
+            setTimeReaded(0);
+        }
     }
 }
