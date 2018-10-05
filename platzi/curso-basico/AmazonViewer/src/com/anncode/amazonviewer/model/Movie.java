@@ -29,4 +29,14 @@ public class Movie extends Film {
     public void setTimeViewed(int timeViewed) {
         this.timeViewed = timeViewed;
     }
+
+    //Los metodos con final o static no pueden ser sobreescritos
+    @Override
+    public String toString() {
+        return "Title: " + getTitle() +
+                "\n Genero: " + getGenre() +
+                "\n Year: " + getYear() +
+                "\n Creator: " + getCreator() +
+                "\n Duration: " + getDuration();
+    }
 }
