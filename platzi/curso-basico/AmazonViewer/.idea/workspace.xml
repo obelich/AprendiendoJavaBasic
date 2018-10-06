@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaaa441c-32e9-4212-99d7-b669cf13b5f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/IVisualizable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Publication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AmazonViewer/com/anncode/amazonviewer/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AmazonViewer/com/anncode/amazonviewer/model/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Chapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Magazine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Serie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,12 +31,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="412" />
+          <entry key="java" value="420" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="412" />
+          <entry key="JAVA" value="420" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -73,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+            <state relative-caret-position="561">
+              <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
               <folding>
                 <element signature="e#1218#1219#0" expanded="true" />
                 <element signature="e#1246#1247#0" expanded="true" />
@@ -147,11 +140,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Serie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+            <state relative-caret-position="388">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+              <folding>
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,11 +182,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Publication.java" />
         <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Magazine.java" />
-        <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Serie.java" />
         <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Chapter.java" />
         <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/IVisualizable.java" />
         <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Movie.java" />
         <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Book.java" />
+        <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Serie.java" />
       </list>
     </option>
   </component>
@@ -349,13 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Serie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Film.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -398,11 +390,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+        <state relative-caret-position="561">
+          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
           <folding>
             <element signature="e#1218#1219#0" expanded="true" />
             <element signature="e#1246#1247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Serie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
           </folding>
         </state>
       </provider>
