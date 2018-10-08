@@ -1,5 +1,6 @@
 package com.anncode.amazonviewer.model;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Movie extends Film implements IVisualizable {
@@ -56,4 +57,19 @@ public class Movie extends Film implements IVisualizable {
             setTimeViewed(0);
         }
     }
+
+    public static ArrayList<Movie> makeMoviesList() {
+        ArrayList<Movie> movies = new ArrayList();
+
+
+        for (int i = 1; i <= 5 ; i++) {
+            movies.add(new Movie("Movie " + i, "Genero "+ i, "Creador "+ i, 120, (short)(2014+i)  ));
+
+        }
+
+
+        return movies;
+    }
+
+
 }

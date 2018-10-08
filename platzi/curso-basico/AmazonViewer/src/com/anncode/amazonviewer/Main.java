@@ -1,17 +1,15 @@
 package com.anncode.amazonviewer;
 
-
 import com.anncode.amazonviewer.model.Movie;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-
-        Movie movie = new Movie("Coco", "Animation", "", 120, (short)2017);
-        System.out.println(movie);
-//        showMenu();
+        showMenu();
 
     }
 
@@ -29,7 +27,11 @@ public class Main {
             System.out.println("5. Report");
             System.out.println("6. Report Today");
             System.out.println("0. Exit");
-            int response = 1;
+
+            Scanner sc = new Scanner(System.in);
+            int response = Integer.valueOf(sc.nextLine());
+            sc.nextInt();
+//            int response = 1;
             switch (response) {
                 case 0:
 
@@ -66,11 +68,19 @@ public class Main {
 
     public static void showMovies() {
         int exit = 0;
+        ArrayList<Movie> movies = Movie.makeMoviesList();
 
         do {
 
             System.out.println();
             System.out.println(" :: MOVIES ::");
+            System.out.println();
+
+            for (int i = 0; i < movies.size(); i++) {
+                System.out.println(i+1 + ". " + movies.get(i).getTitle() + " Visto: " +  movies.get(i).isViewed()   );
+            }
+
+            System.out.println("0. Regresar al Menu");
             System.out.println();
 
         } while (exit != 0);
