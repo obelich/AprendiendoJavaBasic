@@ -67,7 +67,7 @@ public class Main {
     }
 
     public static void showMovies() {
-        int exit = 0;
+        int exit = 1;
         ArrayList<Movie> movies = Movie.makeMoviesList();
 
         do {
@@ -82,6 +82,29 @@ public class Main {
 
             System.out.println("0. Regresar al Menu");
             System.out.println();
+
+            //Leer el numero seleccionado
+            Scanner sc = new Scanner(System.in);
+            int response = Integer.valueOf(sc.nextLine());
+
+            if (response == 0) {
+                showMenu();
+            }
+
+            Movie movieSelected = movies.get(response-1);
+            movieSelected.setViewed(true);
+            Date dateI = movieSelected.startToSee(new Date());
+
+            for (int i = 0; i < 10000; i++) {
+
+                System.out.println("...........");
+            }
+
+            //Termianr de ver la pelicula
+            movieSelected.stopToSee(dateI, new Date() );
+            System.out.println();
+            System.out.println( "Viste: "+movieSelected);
+            System.out.println("Por: " + movieSelected.getTimeViewed() + " Milisegundos");
 
         } while (exit != 0);
     }
