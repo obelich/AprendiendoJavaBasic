@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaaa441c-32e9-4212-99d7-b669cf13b5f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MakeReport/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MakeReport/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MakeReport/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MakeReport/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MakeReport/MakeReport.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MakeReport/src/com/anncode/makereport/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MakeReport/src/com/anncode/makereport/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MakeReport/.idea/artifacts/MakeReport_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MakeReport/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MakeReport/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MakeReport/out/production/MakeReport/com/anncode/makereport/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MakeReport/src/com/anncode/makereport/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +67,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Movie.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="139">
-                  <caret line="54" column="69" selection-start-line="54" selection-start-column="69" selection-end-line="54" selection-end-column="69" />
+                <state relative-caret-position="224">
+                  <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#1326#1327#0" expanded="true" />
@@ -221,9 +218,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="1" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1934" />
     <option name="height" value="1046" />
   </component>
@@ -311,7 +308,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1369936" />
@@ -433,8 +430,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="54" column="69" selection-start-line="54" selection-start-column="69" selection-end-line="54" selection-end-column="69" />
+        <state relative-caret-position="224">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1326#1327#0" expanded="true" />
