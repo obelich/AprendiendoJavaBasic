@@ -46,7 +46,7 @@ public class Report {
 
             try {
                 File file = new File(getNameFile()+"."+getExtension());
-                FileOutputStream fos = new FileOutputStream(file);; //Los dato se convierten a un stream de bytes
+                FileOutputStream fos = new FileOutputStream(file); //Los dato se convierten a un stream de bytes
                 OutputStreamWriter  osw = new OutputStreamWriter(fos); // y el stream se convierte en caracteres
                 BufferedWriter bw = new BufferedWriter(osw);
 

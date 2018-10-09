@@ -7,11 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ade965ac-3843-4da2-b349-b9732f169111" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MakeReport_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AmazonViewer/.idea/libraries/MakeReport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HolaMundo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonViewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/AmazonViewer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/AmazonViewer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/com/anncode/amazonviewer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/com/anncode/amazonviewer/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/com/anncode/amazonviewer/model/Film.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/com/anncode/amazonviewer/model/Film.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Film.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MakeReport/com/anncode/makereport/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anncode/makereport/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MakeReport_jar/MakeReport.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anncode/makereport/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anncode/makereport/Report.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/anncode/makereport/Report.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="302">
+              <caret line="48" column="66" lean-forward="true" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
               <folding>
                 <element signature="e#169#170#0" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
@@ -98,8 +104,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Report.java" />
-        <option value="$PROJECT_DIR$/src/com/anncode/makereport/Report.java" />
         <option value="$PROJECT_DIR$/src/com/anncode/makereport/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/anncode/makereport/Report.java" />
       </list>
     </option>
   </component>
@@ -139,8 +145,22 @@
               <item name="MakeReport" type="b2602c69:ProjectViewProjectNode" />
               <item name="MakeReport" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="MakeReport_jar" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MakeReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeReport" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MakeReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeReport" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="makereport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MakeReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -149,7 +169,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -246,8 +266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/anncode/makereport/Report.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="302">
+          <caret line="48" column="66" lean-forward="true" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
           <folding>
             <element signature="e#169#170#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />

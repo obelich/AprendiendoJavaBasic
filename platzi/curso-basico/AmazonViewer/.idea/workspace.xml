@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaaa441c-32e9-4212-99d7-b669cf13b5f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MakeReport/.idea/artifacts/MakeReport_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/MakeReport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HolaMundo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmazonViewer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AmazonViewer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AmazonViewer/com/anncode/amazonviewer/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AmazonViewer/com/anncode/amazonviewer/model/Film.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AmazonViewer/com/anncode/amazonviewer/model/Film.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anncode/amazonviewer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anncode/amazonviewer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Film.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MakeReport/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MakeReport/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MakeReport/out/production/MakeReport/com/anncode/makereport/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MakeReport/src/com/anncode/makereport/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MakeReport/out/artifacts/MakeReport_jar/MakeReport.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MakeReport/src/com/anncode/makereport/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MakeReport/src/com/anncode/makereport/Report.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,169 +34,140 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="10" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="10" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1910" />
+          <entry key="java" value="2327" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1910" />
+          <entry key="JAVA" value="2327" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.66013074">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1326">
-                  <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Movie.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="224">
-                  <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1326#1327#0" expanded="true" />
-                    <element signature="e#1354#1355#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Book.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#1218#1219#0" expanded="true" />
-                    <element signature="e#1246#1247#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Chapter.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="42" selection-start-line="42" selection-end-line="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Film.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="309">
-                  <caret line="65" selection-start-line="65" selection-end-line="65" />
-                  <folding>
-                    <element signature="e#456#457#0" expanded="true" />
-                    <element signature="e#484#485#0" expanded="true" />
-                    <element signature="e#1364#1365#0" expanded="true" />
-                    <element signature="e#1400#1401#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Magazine.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="16" selection-start-line="16" selection-end-line="22" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Publication.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#503#504#0" expanded="true" />
-                    <element signature="e#545#546#0" expanded="true" />
-                    <element signature="e#579#580#0" expanded="true" />
-                    <element signature="e#615#616#0" expanded="true" />
-                    <element signature="e#649#650#0" expanded="true" />
-                    <element signature="e#701#702#0" expanded="true" />
-                    <element signature="e#747#748#0" expanded="true" />
-                    <element signature="e#783#784#0" expanded="true" />
-                    <element signature="e#815#816#0" expanded="true" />
-                    <element signature="e#865#866#0" expanded="true" />
-                    <element signature="e#907#908#0" expanded="true" />
-                    <element signature="e#943#944#0" expanded="true" />
-                    <element signature="e#973#974#0" expanded="true" />
-                    <element signature="e#1021#1022#0" expanded="true" />
-                    <element signature="e#1059#1060#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Serie.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
-                  <folding>
-                    <element signature="e#585#586#0" expanded="true" />
-                    <element signature="e#639#640#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/IVisualizable.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="348">
-                  <caret line="130" selection-start-line="130" selection-end-line="130" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Movie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
+                <element signature="e#1354#1355#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Chapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Film.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+              <folding>
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#1354#1355#0" expanded="true" />
+                <element signature="e#1382#1383#0" expanded="true" />
+                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Magazine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" selection-start-line="16" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Publication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding>
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Serie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+              <folding>
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/IVisualizable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -210,15 +187,15 @@
         <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Magazine.java" />
         <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/IVisualizable.java" />
         <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Book.java" />
-        <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Film.java" />
         <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Movie.java" />
         <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Chapter.java" />
         <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Serie.java" />
+        <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Film.java" />
         <option value="$PROJECT_DIR$/src/com/anncode/amazonviewer/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1934" />
@@ -244,16 +221,7 @@
             </path>
             <path>
               <item name="AmazonViewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmazonViewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amazonviewer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AmazonViewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmazonViewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amazonviewer" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -261,6 +229,12 @@
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/MakeReport.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -308,17 +282,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1369936" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.1369936" />
+      <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" visible="true" weight="0.1369936" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,7 +300,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -380,36 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/IVisualizable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Serie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -428,10 +372,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/IVisualizable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="444">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1326#1327#0" expanded="true" />
@@ -440,5 +391,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/model/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reporte2018-10-09.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportacion.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/anncode/amazonviewer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AmazonViewer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>MakeReport</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
