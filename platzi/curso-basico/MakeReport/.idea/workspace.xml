@@ -8,13 +8,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ade965ac-3843-4da2-b349-b9732f169111" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../AmazonViewer/.idea/libraries/MakeReport.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HolaMundo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonViewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonViewer/AmazonViewer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/AmazonViewer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/com/anncode/amazonviewer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/com/anncode/amazonviewer/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/com/anncode/amazonviewer/model/Film.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/com/anncode/amazonviewer/model/Film.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/com/anncode/amazonviewer/model/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HolaMundo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/MakeReport_jar/MakeReport.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/anncode/makereport/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anncode/makereport/Report.java" afterDir="false" />
@@ -30,6 +30,7 @@
     <session id="103366163">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -64,7 +65,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/anncode/makereport/Report.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
+            <state relative-caret-position="449">
               <caret line="48" column="66" lean-forward="true" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
               <folding>
                 <element signature="e#169#170#0" expanded="true" />
@@ -221,7 +222,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
@@ -234,7 +234,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3253796" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3253796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,7 +266,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/anncode/makereport/Report.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="449">
           <caret line="48" column="66" lean-forward="true" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
           <folding>
             <element signature="e#169#170#0" expanded="true" />
