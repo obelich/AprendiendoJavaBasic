@@ -13,11 +13,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-//        showMenu();
-
-        int x = 1;
-        while (x <= 10)
-            System.out.println(++x);
+        showMenu();
     }
 
     public static void showMenu() {
@@ -102,19 +98,7 @@ public class Main {
             if (response > 0) {
 
                 Movie movieSelected = movies.get(response-1);
-                movieSelected.setViewed(true);
-                Date dateI = movieSelected.startToSee(new Date());
 
-                for (int i = 0; i < 10000; i++) {
-
-                    System.out.println("...........");
-                }
-
-                //Termianr de ver la pelicula
-                movieSelected.stopToSee(dateI, new Date() );
-                System.out.println();
-                System.out.println( "Viste: "+movieSelected);
-                System.out.println("Por: " + movieSelected.getTimeViewed() + " Milisegundos");
 
             }
 
@@ -123,9 +107,10 @@ public class Main {
         } while (exit != 0);
     }
 
+
+    static ArrayList<Serie> series = Serie.makeSeriesList();
     public static void showSeries() {
         int exit = 1;
-        ArrayList<Serie> series = Serie.makeSeriesList();
 
         do {
 
