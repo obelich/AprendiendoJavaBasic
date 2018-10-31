@@ -1,5 +1,6 @@
 package com.anncode.amazonviewer;
 
+import com.anncode.amazonviewer.model.Book;
 import com.anncode.amazonviewer.model.Chapter;
 import com.anncode.amazonviewer.model.Movie;
 import com.anncode.amazonviewer.model.Serie;
@@ -98,11 +99,8 @@ public class Main {
             if (response > 0) {
 
                 Movie movieSelected = movies.get(response-1);
-
-
+                movieSelected.view();
             }
-
-
 
         } while (exit != 0);
     }
@@ -142,6 +140,7 @@ public class Main {
 
     }
 
+    static ArrayList<Book> books= Book.makeBookList();
     public static void showBooks() {
 
         int exit = 0;
@@ -151,6 +150,21 @@ public class Main {
             System.out.println();
             System.out.println(" :: BOOKS ::");
             System.out.println();
+
+            //Leer el numero seleccionado
+            Scanner sc = new Scanner(System.in);
+            int response = Integer.valueOf(sc.nextLine());
+
+            if (response == 0) {
+                exit = 0;
+                showMenu();
+            }
+
+            if (response > 0) {
+
+                Book bookSelected = books.get(response-1);
+                bookSelected.view();
+            }
 
         } while (exit != 0);
     }
@@ -175,23 +189,13 @@ public class Main {
             int response = Integer.valueOf(sc.nextLine());
 
             if (response == 0) {
-                showSeries();
+                exit = 0;
             }
 
-            Chapter chapterSelected = chaptersOfSerieSelected.get(response-1);
-            chapterSelected.setViewed(true);
-            Date dateI= chapterSelected.startToSee(new Date());
-
-            for (int i = 0; i < 10000; i++) {
-                System.out.println("...........");
+            if (response > 0) {
+                Chapter chapterSelected = chaptersOfSerieSelected.get(response-1);
+                chapterSelected.view();
             }
-
-            //Termine de verla
-            chapterSelected.stopToSee(dateI, new Date());
-            System.out.println();
-            System.out.println("Viste: " + chapterSelected);
-            System.out.println("Por: " + chapterSelected.getTimeViewed() + " milisegundos"  );
-
 
         } while (exit != 0);
 

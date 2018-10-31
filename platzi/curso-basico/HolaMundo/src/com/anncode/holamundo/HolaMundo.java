@@ -82,7 +82,7 @@ public class HolaMundo { //Las clases siempre seran Upper camel case
         int[][][] array3D = new int[3][3][2]; //caben 18 objetos
 
             //Otra forma de declarar arrays
-            char[][] days = { {'L', 'M', 'M'}, {'J', 'V', 'S'} }; //Dos domenciones
+            char[][] days = { {'L', 'M', 'M'}, {'J', 'V', 'S'} }; //Dos dimenciones
             char[][][] days3D = { { {'a', 'b'}, {'c', 'd'}, {'e','f','g'} }, { {'h', 'i'}, {'j', 'k'}, {'l', 'm'} }  };
 
             char[] names = new char[4];

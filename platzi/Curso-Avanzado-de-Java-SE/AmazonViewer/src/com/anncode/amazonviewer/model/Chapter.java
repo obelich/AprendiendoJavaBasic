@@ -55,9 +55,14 @@ public class Chapter extends Movie {
         int chapterviewdCounter = 0;
         for (Chapter chapter : chapters) {
             if (chapter.getIsViewed()) {
+                chapterviewdCounter++;
 
             }
-            
+
+    }
+
+        if (chapterviewdCounter == chapters.size()) {
+            getSerie().setViewed(true);
         }
     }
 
